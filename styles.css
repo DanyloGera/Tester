@@ -1,0 +1,91 @@
+.wrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+justify-content: center;
+}
+.row1{
+    position: absolute;
+    left: 8px;
+ width: 18%;
+ height: 600px;
+ background-color: tomato;
+}
+.canvas{
+  width: 59%;
+  height: 600px;
+  background-color: #32a88d;
+
+}
+.ads{
+  position: absolute;
+right: 3%;
+  width: 15%;
+  height: 600px;
+  background-color: #79a832;
+
+}
+@media (min-height: 750px) {
+
+.canvas, .ads, .row1{
+
+  height: 700px;
+
+
+}
+}
+@media (min-height: 800px) {
+
+.canvas, .ads, .row1{
+
+  height: 750px;
+
+
+}
+}
+@media (min-height: 850px) {
+
+.canvas, .ads, .row1{
+
+  height: 800px;
+
+
+}
+}
+@media (min-height: 900px) {
+
+.canvas, .ads, .row1{
+
+  height: 850px;
+
+
+}
+}
+@media (min-height: 950px) {
+
+.canvas, .ads, .row1{
+
+  height: 900px;
+
+
+}
+}
+@media (min-height: 1000px) {
+
+.canvas, .ads, .row1{
+
+  height: 950px;
+
+
+}
+}
+@media (min-height: 1050px) {
+
+.canvas, .ads, .row1{
+
+  height: 1000px;
+
+
+}
+}
